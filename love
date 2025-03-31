@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поздравление с Днем Рождения, Софийка!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fdf6e3;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+
+        h1 {
+            color: #ff6f61;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .heart {
+            color: #ff6f61;
+            font-size: 50px;
+            margin: 20px 0;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #999;
+        }
+
+        .button {
+            background-color: #ff6f61;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #ff4f3b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>С Днем Рождения, Софийка!</h1>
+        <p>Моя любимая, самая нежная, милая и удивительная девушка! С каждым днем ты становишься только прекрасней, и я горжусь тем, что могу быть рядом с тобой. Пусть твой день будет наполнен только счастьем, радостью и любовью, а каждый момент жизни приносит тебе море вдохновения и улыбок!</p>
+        
+        <div class="heart">❤️</div>
+
+        <p>Ты — мое солнышко, которое согревает мои дни, и я обещаю всегда быть рядом, поддерживать и любить тебя.</p>
+
+        <footer>
+            С любовью, твой <strong>любящий парень</strong>.
+        </footer>
+    </div>
+</body>
+</html>
